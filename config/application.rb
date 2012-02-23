@@ -10,7 +10,7 @@ if defined?(Bundler)
     # Bundler.require(:default, :assets, Rails.env)
 end
 
-module SampleApp
+module Personal
     class Application < Rails::Application
         
     # Enable the asset pipeline
