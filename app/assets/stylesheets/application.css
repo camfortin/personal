@@ -1,5 +1,15 @@
+/*
+*= require_self
+*= require foundation
+*= require_tree .
+*/
+
 .container {
   width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 body {
@@ -47,23 +57,25 @@ nav {
   
 nav {
   background-color: #E02F76;
-  padding: 0 0.7em;
+  padding: 0 0em;
   white-space: nowrap;
   }
 
 nav ul {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0px;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
   }
 
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.2em 0;
+  padding: 0em 0;
   }
   
 nav ul li a {
-  padding: 0 5px;
+  padding: 0 1em;
   font-weight: bold;
   color: #fff;
   }
@@ -76,8 +88,8 @@ nav ul li a:hover {
 
 footer {
   text-align: center;
-  margin-top: 10px;
-  width: 850px;
+  margin-top: 10px;  
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
@@ -93,6 +105,7 @@ footer nav {
 a.signup_button {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   display: block;
   text-align: center;
   width: 275px;
